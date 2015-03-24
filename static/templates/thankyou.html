@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+            
+{% block content %}
+<div class='col-sm-12' style='text-align: center;'>
+    <h2>One more step </h2>
+    <h3>Please complete the following</h3>
+    <form method='POST' action=''> {% csrf_token %}
+            {{form.as_p}}
+            <input type='submit' class="btn btn-success" >                
+    </form>    
+</div>
+{% endblock %}

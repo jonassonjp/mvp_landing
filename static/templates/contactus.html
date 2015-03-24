@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block contactus %}
+ <div class="contact-inner ">
+        <div class="container">
+          <!-- section head -->
+          <div class="section-head text-center">
+            <div class="section-title col-md-8 col-md-offset-2">
+              <h1 class=" title-heading fit-text ">Contact Us</h1>
+
+              <p class="tagline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+            <!-- clear floats -->
+            <div class="clearfix"></div>
+          </div>
+          <!-- section head ends -->
+          <!-- section body starts -->
+          <div class="section-body">
+            <div class="contact-form col-md-6">
+              <h3>Drop us a line</h3>
+              <!-- contact form starts -->
+              <form class='form'>
+                <div class="form-group">
+                  <label for="name">Your Name:</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email:</label>
+                  <input type="email" class="form-control" id="email" >
+                </div>
+                <div class="form-group">
+                  <label for="message">Your Message:</label>
+                  <textarea class="form-control"  rows="8" id="message" name='message' ></textarea>
+                </div>
+                <button type="submit" class="btn btn-default btn-block btn-submit"><i class="fa fa-ok"></i>Submit</button>
+              </form>
+              <!-- contact form ends -->
+            </div>
+            <div class="map col-md-6" >
+              <div class="map-header">
+                <h3>Or Visit Us</h3>
+                <address>
+                  <strong>oWoos, Inc.</strong><br>
+                  795 Folsom Ave, Suite 600<br>
+                  San Francisco, CA 94107<br>
+                  Phone (123) 456-7890
+                </address>
+              </div>
+              <div id="map"></div>
+            </div>
+            <!-- clear fix -->
+            <div class="clearfix"></div>
+          </div>
+          <!-- section body ends -->
+        </div>
+
+      </div>
+{% endblock %}
+
+
+            
+{% block content %}
+
+<h4> you for joining!</h4>
+
+{% endblock %}
+
+
+ 
